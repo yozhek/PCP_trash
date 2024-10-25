@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "pisemka.exe"
+			"path" : "Tesla.exe"
 		},
 		{
-			"path" : "pisemka.pdb"
+			"path" : "Tesla.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 11,
 				"parent" : 0
 			}
 		]
@@ -53,11 +53,15 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4,
+				5
 			]
 		}
 	],
-	"id" : "pisemka::@6890427a1f51a3e7e1df",
+	"id" : "Tesla::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +81,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "pisemka",
-	"nameOnDisk" : "pisemka.exe",
+	"name" : "Tesla",
+	"nameOnDisk" : "Tesla.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,7 +95,11 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -100,13 +108,37 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "pisemka/main.cpp",
+			"path" : "Tesla/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "pisemka/Game.cpp",
+			"path" : "Tesla/Tesla.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Tesla/Game.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Tesla/Map.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Tesla/Supercharger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Tesla/Position.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

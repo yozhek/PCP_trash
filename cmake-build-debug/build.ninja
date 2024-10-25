@@ -74,43 +74,106 @@ build trash.exe: CXX_EXECUTABLE_LINKER__trash_Debug CMakeFiles/trash.dir/trash/m
   TARGET_PDB = trash.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target pisemka
+# Object build statements for EXECUTABLE target Hangman
 
 
 #############################################
-# Order-only phony target for pisemka
+# Order-only phony target for Hangman
 
-build cmake_object_order_depends_target_pisemka: phony || CMakeFiles/pisemka.dir
+build cmake_object_order_depends_target_Hangman: phony || CMakeFiles/Hangman.dir
 
-build CMakeFiles/pisemka.dir/pisemka/main.cpp.obj: CXX_COMPILER__pisemka_unscanned_Debug C$:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/pisemka/main.cpp || cmake_object_order_depends_target_pisemka
-  DEP_FILE = CMakeFiles\pisemka.dir\pisemka\main.cpp.obj.d
+build CMakeFiles/Hangman.dir/Hangman/main.cpp.obj: CXX_COMPILER__Hangman_unscanned_Debug C$:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/Hangman/main.cpp || cmake_object_order_depends_target_Hangman
+  DEP_FILE = CMakeFiles\Hangman.dir\Hangman\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\pisemka.dir
-  OBJECT_FILE_DIR = CMakeFiles\pisemka.dir\pisemka
+  OBJECT_DIR = CMakeFiles\Hangman.dir
+  OBJECT_FILE_DIR = CMakeFiles\Hangman.dir\Hangman
 
-build CMakeFiles/pisemka.dir/pisemka/Game.cpp.obj: CXX_COMPILER__pisemka_unscanned_Debug C$:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/pisemka/Game.cpp || cmake_object_order_depends_target_pisemka
-  DEP_FILE = CMakeFiles\pisemka.dir\pisemka\Game.cpp.obj.d
+build CMakeFiles/Hangman.dir/Hangman/Game.cpp.obj: CXX_COMPILER__Hangman_unscanned_Debug C$:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/Hangman/Game.cpp || cmake_object_order_depends_target_Hangman
+  DEP_FILE = CMakeFiles\Hangman.dir\Hangman\Game.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\pisemka.dir
-  OBJECT_FILE_DIR = CMakeFiles\pisemka.dir\pisemka
+  OBJECT_DIR = CMakeFiles\Hangman.dir
+  OBJECT_FILE_DIR = CMakeFiles\Hangman.dir\Hangman
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target pisemka
+# Link build statements for EXECUTABLE target Hangman
 
 
 #############################################
-# Link the executable pisemka.exe
+# Link the executable Hangman.exe
 
-build pisemka.exe: CXX_EXECUTABLE_LINKER__pisemka_Debug CMakeFiles/pisemka.dir/pisemka/main.cpp.obj CMakeFiles/pisemka.dir/pisemka/Game.cpp.obj
+build Hangman.exe: CXX_EXECUTABLE_LINKER__Hangman_Debug CMakeFiles/Hangman.dir/Hangman/main.cpp.obj CMakeFiles/Hangman.dir/Hangman/Game.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\pisemka.dir
+  OBJECT_DIR = CMakeFiles\Hangman.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = pisemka.exe
-  TARGET_IMPLIB = libpisemka.dll.a
-  TARGET_PDB = pisemka.exe.dbg
+  TARGET_FILE = Hangman.exe
+  TARGET_IMPLIB = libHangman.dll.a
+  TARGET_PDB = Hangman.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Tesla
+
+
+#############################################
+# Order-only phony target for Tesla
+
+build cmake_object_order_depends_target_Tesla: phony || CMakeFiles/Tesla.dir
+
+build CMakeFiles/Tesla.dir/Tesla/main.cpp.obj: CXX_COMPILER__Tesla_unscanned_Debug C$:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/Tesla/main.cpp || cmake_object_order_depends_target_Tesla
+  DEP_FILE = CMakeFiles\Tesla.dir\Tesla\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Tesla.dir
+  OBJECT_FILE_DIR = CMakeFiles\Tesla.dir\Tesla
+
+build CMakeFiles/Tesla.dir/Tesla/Tesla.cpp.obj: CXX_COMPILER__Tesla_unscanned_Debug C$:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/Tesla/Tesla.cpp || cmake_object_order_depends_target_Tesla
+  DEP_FILE = CMakeFiles\Tesla.dir\Tesla\Tesla.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Tesla.dir
+  OBJECT_FILE_DIR = CMakeFiles\Tesla.dir\Tesla
+
+build CMakeFiles/Tesla.dir/Tesla/Game.cpp.obj: CXX_COMPILER__Tesla_unscanned_Debug C$:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/Tesla/Game.cpp || cmake_object_order_depends_target_Tesla
+  DEP_FILE = CMakeFiles\Tesla.dir\Tesla\Game.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Tesla.dir
+  OBJECT_FILE_DIR = CMakeFiles\Tesla.dir\Tesla
+
+build CMakeFiles/Tesla.dir/Tesla/Map.cpp.obj: CXX_COMPILER__Tesla_unscanned_Debug C$:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/Tesla/Map.cpp || cmake_object_order_depends_target_Tesla
+  DEP_FILE = CMakeFiles\Tesla.dir\Tesla\Map.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Tesla.dir
+  OBJECT_FILE_DIR = CMakeFiles\Tesla.dir\Tesla
+
+build CMakeFiles/Tesla.dir/Tesla/Supercharger.cpp.obj: CXX_COMPILER__Tesla_unscanned_Debug C$:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/Tesla/Supercharger.cpp || cmake_object_order_depends_target_Tesla
+  DEP_FILE = CMakeFiles\Tesla.dir\Tesla\Supercharger.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Tesla.dir
+  OBJECT_FILE_DIR = CMakeFiles\Tesla.dir\Tesla
+
+build CMakeFiles/Tesla.dir/Tesla/Position.cpp.obj: CXX_COMPILER__Tesla_unscanned_Debug C$:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/Tesla/Position.cpp || cmake_object_order_depends_target_Tesla
+  DEP_FILE = CMakeFiles\Tesla.dir\Tesla\Position.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Tesla.dir
+  OBJECT_FILE_DIR = CMakeFiles\Tesla.dir\Tesla
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Tesla
+
+
+#############################################
+# Link the executable Tesla.exe
+
+build Tesla.exe: CXX_EXECUTABLE_LINKER__Tesla_Debug CMakeFiles/Tesla.dir/Tesla/main.cpp.obj CMakeFiles/Tesla.dir/Tesla/Tesla.cpp.obj CMakeFiles/Tesla.dir/Tesla/Game.cpp.obj CMakeFiles/Tesla.dir/Tesla/Map.cpp.obj CMakeFiles/Tesla.dir/Tesla/Supercharger.cpp.obj CMakeFiles/Tesla.dir/Tesla/Position.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Tesla.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Tesla.exe
+  TARGET_IMPLIB = libTesla.dll.a
+  TARGET_PDB = Tesla.exe.dbg
 
 
 #############################################
@@ -138,7 +201,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build pisemka: phony pisemka.exe
+build Hangman: phony Hangman.exe
+
+build Tesla: phony Tesla.exe
 
 build trash: phony trash.exe
 
@@ -150,7 +215,7 @@ build trash: phony trash.exe
 #############################################
 # Folder: C:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/cmake-build-debug
 
-build all: phony trash.exe pisemka.exe
+build all: phony trash.exe Hangman.exe Tesla.exe
 
 # =============================================================================
 # Built-in targets

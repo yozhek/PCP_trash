@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -40,9 +42,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "pisemka::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pisemka-Debug-17a115f82674a9987385.json",
-					"name" : "pisemka",
+					"id" : "Hangman::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Hangman-Debug-882de8c4338606a34024.json",
+					"name" : "Hangman",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Tesla::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Tesla-Debug-05032237ad32d60aba6f.json",
+					"name" : "Tesla",
 					"projectIndex" : 0
 				},
 				{

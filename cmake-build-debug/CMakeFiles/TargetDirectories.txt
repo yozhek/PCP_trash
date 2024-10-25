@@ -1,4 +1,5 @@
 C:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/cmake-build-debug/CMakeFiles/trash.dir
-C:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/cmake-build-debug/CMakeFiles/pisemka.dir
+C:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/cmake-build-debug/CMakeFiles/Hangman.dir
+C:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/cmake-build-debug/CMakeFiles/Tesla.dir
 C:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Leonid/Desktop/Ukoly.mu/PCP/PCP_trash/cmake-build-debug/CMakeFiles/rebuild_cache.dir
